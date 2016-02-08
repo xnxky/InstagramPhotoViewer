@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/profile_image_min_size"
+        android:minWidth="@dimen/profile_image_min_size"
+        android:id="@+id/user_profile"
+        android:layout_marginLeft="@dimen/caption_left_margin"
+        android:layout_marginStart="@dimen/caption_left_margin"
+        android:layout_marginTop="@dimen/topview_comp_margin"
+        android:layout_marginBottom="@dimen/topview_comp_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/comment"
+        android:textSize="@dimen/comment_size"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/caption_left_margin"
+        android:layout_marginEnd="@dimen/caption_left_margin"
+        android:layout_marginTop="@dimen/topview_comp_margin"
+        android:layout_marginBottom="@dimen/topview_comp_margin"
+        android:layout_marginLeft="@dimen/topview_comp_margin"
+        android:layout_marginStart="@dimen/topview_comp_margin"
+        android:layout_toRightOf="@id/user_profile"
+        android:layout_toEndOf="@id/user_profile"/>
+
+</RelativeLayout>
